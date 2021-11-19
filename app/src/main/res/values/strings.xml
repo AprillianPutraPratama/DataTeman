@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">Data Teman</string>
+    <string name="fragmen_github">THIS IS GITHUB FFRAGMENT</string>
+    <string name="fragmen_my_friend">THIS IS FRIEND FRAGMENT</string>
+    <string name="fragmen_profil">THIS IS PROFILE FRAGMENT</string>
+</resources>
