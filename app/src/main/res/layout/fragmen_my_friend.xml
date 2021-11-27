@@ -5,12 +5,17 @@
     android:orientation="vertical">
 
     <TextView
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="@string/fragmen_my_friend"
-        android:layout_marginTop="16dp"
-        android:layout_marginLeft="16dp"
-        android:layout_gravity="center"
-        android:textSize="20dp"/>
+        android:text="list Teman"
+        android:textSize="18sp"
+        android:layout_margin="16dp"
+        android:gravity="center_horizontal" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/rv_listMyfriends"
+        android:layout_margin="16dp" />
 
 </LinearLayout>
